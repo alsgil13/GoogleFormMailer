@@ -4,17 +4,25 @@ O presente projeto destina-se a gerenciar as respostas enviadas em um fomrulári
 Através deste é possível enviar as respostas para um ou mais endereços de e-mail definidos imediatamente quando a resposta é submetida, também ó possivel apagar as respostas armazenadas no formulário após o envio, bem como arquvios do Google Drive se for o caso.
 
 ## Guia ilustrado de Utilização
+
 Acompanhe os passo abaixo para adicionar as funcionalidades descritas acima ao seu formulário.
 
 ### Abra o Editor de Scripts 
+
 Abra o formulário o qual você deseja que o script capte as respostas.
+
+
 ![Abrindo o Editor de scripts](img/abrindoAppScripts.gif)
 
 ### Copie e Cole o código
+
 Copie o código presente no arquivo `formManager.js` e cole no editor de scripts substituindo o conteúdo atual.
+
+
 ![Copiando Codigo](img/copiandoCodigo.gif)
 
 ### Altere as constantes
+
 Altera as constantes no início do código, através delas é possível:
 * Controlar para quais e-mails serão enviadas as respostas
 * Alterar para qual e-mail deverão ser encaminhadas as respostas das notificação (replyTo)
@@ -65,9 +73,12 @@ Altera as constantes no início do código, através delas é possível:
 ![Alterando Constantes](img/alterandoConstantes.gif)
 
 ### Crie o Gatilho
+
 Selecione a função criaTrigger e execute, demorará algum tempo processando e serão solicitadas permissões dos Apps Google.
+
 ![Cria Trigger](img/criaTrigger2.gif)
 
 ### Pronto!
+
 Agora basta aguardar as respostas chegarem no seu e-mail. Responda uma vez o formulário para testar o funcionamento.
 
