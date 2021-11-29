@@ -9,7 +9,7 @@ Acompanhe os passo abaixo para adicionar as funcionalidades descritas acima ao s
 
 ### Abra o Editor de Scripts 
 
-Abra o formulário o qual você deseja que o script capte as respostas.
+Abra o formulário o qual você deseja que o script atue. Para fazer isso clique no menu sanduíche no canto superior direito, ao lado da foto da conta, e clique em [<> Editor de Scripts]
 
 
 ![Abrindo o Editor de scripts](img/abrindoAppScripts.gif)
@@ -23,7 +23,7 @@ Copie o código presente no arquivo `formManager.js` e cole no editor de scripts
 
 ### Altere as constantes
 
-Altera as constantes no início do código, através delas é possível:
+Se necessário, altera as constantes no início do código, através delas é possível:
 * Controlar para quais e-mails serão enviadas as respostas
 * Alterar para qual e-mail deverão ser encaminhadas as respostas das notificação (replyTo)
 * Definir se as respostas deverão ser apagadas do formulário ou não
