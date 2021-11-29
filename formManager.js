@@ -20,7 +20,7 @@ function respMailer(){
    **/
   const emails = ['als_gil@ffclrp.usp.br'];
   /** 
-   * Define para quem será encaminhadas as respostas, erros também erão reportados à este e-mail
+   * Define para quem será encaminhadas as respostas, erros também serão reportados à este e-mail
    **/
   const emailReply = 'als_gil@ffclrp.usp.br';
   /** 

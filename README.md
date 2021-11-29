@@ -41,7 +41,7 @@ Se necessário, altera as constantes no início do código, através delas é po
   const emails = ['als_gil@ffclrp.usp.br'];
 
 /** 
-   * Define para quem será encaminhadas as respostas, erros também erão reportados 
+   * Define para quem será encaminhadas as respostas, erros também serão reportados 
    * à este e-mail
    **/
   const emailReply = 'als_gil@ffclrp.usp.br';
