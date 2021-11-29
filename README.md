@@ -1,15 +1,15 @@
 # Google Forms Mailer
 
-O presente projeto destina-se a gerenciar as respostas enviadas em um fomrulário Google Forms.
-Através deste é possível enviar as respostas para um ou mais endereços de e-mail definidos imediatamente quando a resposta é submetida, também ó possivel apagar as respostas armazenadas no formulário após o envio, bem como arquvios do Google Drive se for o caso.
+O presente projeto destina-se a gerenciar as respostas enviadas em um formulário Google Forms.
+Através deste é possível enviar as respostas para um ou mais endereços de e-mail definidos, imediatamente quando a resposta é submetida, também ó possivel apagar as respostas armazenadas no formulário após o envio, bem como arquvios do Google Drive, se for o caso.
 
 ## Guia ilustrado de Utilização
 
-Acompanhe os passo abaixo para adicionar as funcionalidades descritas acima ao seu formulário.
+Acompanhe os passos abaixo para adicionar as funcionalidades descritas acima ao seu formulário.
 
 ### Abra o Editor de Scripts 
 
-Abra o formulário o qual você deseja que o script atue. Para fazer isso clique no menu sanduíche no canto superior direito, ao lado da foto da conta, e clique em [<> Editor de Scripts]
+Abra o formulário no qual você deseja que o script atue. Para fazer isso clique no menu sanduíche no canto superior direito, ao lado da foto da conta, e clique em [<> Editor de Scripts] conforme ilustrado abaixo.
 
 
 ![Abrindo o Editor de scripts](img/abrindoAppScripts.gif)
@@ -29,6 +29,8 @@ Se necessário, altera as constantes no início do código, através delas é po
 * Definir se as respostas deverão ser apagadas do formulário ou não
 * Definir se os arquivos do Google Drive deverão ser enviados para a lixeira
 * Definir se os tipos das perguntas serão mostrado na resposta
+
+Após a eventual alteração, salve novamente o arquivo.
 
 ```javascript
 // ----------------------------- Constantes definidas pelo usuário --------------------------
@@ -74,7 +76,7 @@ Se necessário, altera as constantes no início do código, através delas é po
 
 ### Crie o Gatilho
 
-Selecione a função criaTrigger e execute, demorará algum tempo processando e serão solicitadas permissões dos Apps Google, selecione a mesma conta onde você cripu o formulário e conceda as permissões solicitadas.
+Selecione a função criaTrigger e execute, demorará algum tempo processando e serão solicitadas permissões dos Apps Google, selecione a mesma conta onde você criou o formulário e conceda as permissões solicitadas.
 
 ![Cria Trigger](img/criaTrigger2.gif)
 
