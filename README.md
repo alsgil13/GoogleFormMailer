@@ -22,7 +22,7 @@ Altera as constantes no início do código, através delas é possível:
 * Definir se or arquvios do Google Drive deverão ser enviados para a lixeira
 * Definir se os tipos das perguntas serão mostrado na resposta
 
-```
+```javascript
 // ----------------------------- Constantes definidas pelo usuário ---------------------------------------------------------------
   /** 
    * E-mails para onde serão enviadas as respostas
