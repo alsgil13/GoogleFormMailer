@@ -23,18 +23,18 @@ Altera as constantes no início do código, através delas é possível:
 * Definir se os tipos das perguntas serão mostrado na resposta
 
 ```javascript
-// ----------------------------- Constantes definidas pelo usuário ---------------------------------------------------------------
-
+// ----------------------------- Constantes definidas pelo usuário --------------------------
 /** 
    * E-mails para onde serão enviadas as respostas
    * adicione quantos endereços de e-mail forem necessários
    * Exemplo:
-   *  const emails = ['als_gil@ffclrp.usp.br','informatica@listas.ffclrp.usp.br','outro@email.com'];
+   *  const emails = ['als_gil@ffclrp.usp.br','outro@email.com','...'];
    **/
   const emails = ['als_gil@ffclrp.usp.br'];
 
 /** 
-   * Define para quem será encaminhadas as respostas, erros também erão reportados à este e-mail
+   * Define para quem será encaminhadas as respostas, erros também erão reportados 
+   * à este e-mail
    **/
   const emailReply = 'als_gil@ffclrp.usp.br';
 
@@ -58,7 +58,7 @@ Altera as constantes no início do código, através delas é possível:
    *  false: não
    **/
   const apagarArquivosDrive = false;
-// --------------------------------------------------------------------------------------------------------------------------------- 
+// -------------------------------------------------------------------------------------------
 
 ```
 
