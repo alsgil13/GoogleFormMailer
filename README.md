@@ -16,7 +16,7 @@ Abra o formulário o qual você deseja que o script atue. Para fazer isso clique
 
 ### Copie e Cole o código
 
-Copie o código presente no arquivo `formManager.js` e cole no editor de scripts substituindo o conteúdo atual.
+Copie o código presente no arquivo `formManager.js` e cole no editor de scripts substituindo o conteúdo atual, em seguida clique sobre o ícone para salvar o arquivo.
 
 
 ![Copiando Codigo](img/copiandoCodigo.gif)
@@ -25,9 +25,9 @@ Copie o código presente no arquivo `formManager.js` e cole no editor de scripts
 
 Se necessário, altera as constantes no início do código, através delas é possível:
 * Controlar para quais e-mails serão enviadas as respostas
-* Alterar para qual e-mail deverão ser encaminhadas as respostas das notificação (replyTo)
+* Alterar para qual e-mail deverão ser encaminhadas as respostas dos emails (replyTo)
 * Definir se as respostas deverão ser apagadas do formulário ou não
-* Definir se or arquvios do Google Drive deverão ser enviados para a lixeira
+* Definir se os arquivos do Google Drive deverão ser enviados para a lixeira
 * Definir se os tipos das perguntas serão mostrado na resposta
 
 ```javascript
@@ -74,7 +74,7 @@ Se necessário, altera as constantes no início do código, através delas é po
 
 ### Crie o Gatilho
 
-Selecione a função criaTrigger e execute, demorará algum tempo processando e serão solicitadas permissões dos Apps Google.
+Selecione a função criaTrigger e execute, demorará algum tempo processando e serão solicitadas permissões dos Apps Google, selecione a mesma conta onde você cripu o formulário e conceda as permissões solicitadas.
 
 ![Cria Trigger](img/criaTrigger2.gif)
 
