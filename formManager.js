@@ -417,7 +417,7 @@ function respMailer(){
           Logger.log(e);
 
           try{
-            GmailApp.sendEmail(emailReply,"Falha ao enviar email para: " + emails[e],mensagem, mailOptions);    
+            GmailApp.sendEmail(emailReply,"Falha ao enviar email para: " + emails[q],mensagem, mailOptions);    
             Logger.log("Mensagem: ");
             Logger.log(mensagem);
 
