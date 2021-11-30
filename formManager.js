@@ -12,35 +12,34 @@ function criaTrigger(){
 function respMailer(){
   
 // ----------------------------- Constantes definidas pelo usuário ---------------------------------------------------------------
-  /** 
-   * E-mails para onde serão enviadas as respostas
-   * adicione quantos endereços de e-mail forem necessários
-   * Exemplo:
-   *  const emails = ['als_gil@ffclrp.usp.br','informatica@listas.ffclrp.usp.br','outro@email.com'];
-   **/
+/** 
+ * E-mails para onde serão enviadas as respostas
+ * adicione quantos endereços de e-mail forem necessários
+ * Exemplo:
+ *  const emails = ['als_gil@ffclrp.usp.br','informatica@listas.ffclrp.usp.br','outro@email.com'];
+ **/
   const emails = ['als_gil@ffclrp.usp.br'];
-  /** 
-   * Define para quem será encaminhadas as respostas, erros também serão reportados à este e-mail
-   **/
+/** 
+ * Define para quem será encaminhadas as respostas, erros também serão reportados à este e-mail
+ **/
   const emailReply = 'als_gil@ffclrp.usp.br';
-  /** 
-   * Deseja mostrar o tipo de questão?
-   *  true: sim
-   *  false: não
-   **/
+/** 
+ * Deseja mostrar o tipo de questão?
+ *  true: sim
+ *  false: não
+ **/
   const mostraTipo = true;
-  /** 
-   * Deseja apagar a resposta após o envio do e-mail?
-   *  true: sim
-   *  false: não
-   **/
+/** 
+ * Deseja apagar a resposta após o envio do e-mail?
+ *  true: sim
+ *  false: não
+ **/
   const apagarResp = false;
-  /** 
-   * Deseja enviar os arquivos para a lixeira do Drive após o envio do e-mail?
-   *  true: sim
-   *  false: não
-   **/
-
+/** 
+ * Deseja enviar os arquivos para a lixeira do Drive após o envio do e-mail?
+ *  true: sim
+ *  false: não
+ **/
   const apagarArquivosDrive = false;
 // --------------------------------------------------------------------------------------------------------------------------------- 
  
