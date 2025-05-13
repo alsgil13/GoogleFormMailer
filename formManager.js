@@ -12,6 +12,9 @@ function criaTrigger(){
 function respMailer(){
   
 // ----------------------------- Constantes definidas pelo usuário ---------------------------------------------------------------
+
+
+
 /** 
  * E-mails para onde serão enviadas as respostas
  * adicione quantos endereços de e-mail forem necessários
